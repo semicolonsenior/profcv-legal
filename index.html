@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>ProfCV – Legal</title>
+<style>
+  :root { --primary: #1A237E; --accent: #C9A84C; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #F8F9FC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 20px;
+  }
+  .crown { font-size: 52px; margin-bottom: 12px; }
+  h1 { font-size: 26px; color: var(--primary); font-weight: 700; margin-bottom: 6px; }
+  p  { color: #6B7280; font-size: 14px; margin-bottom: 40px; }
+
+  .cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    padding: 28px 32px;
+    text-align: center;
+    width: 220px;
+    text-decoration: none;
+    color: var(--primary);
+    transition: box-shadow .2s, transform .2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  }
+  .card:hover {
+    box-shadow: 0 8px 24px rgba(26,35,126,.15);
+    transform: translateY(-3px);
+  }
+  .card .icon { font-size: 36px; margin-bottom: 12px; }
+  .card h2   { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+  .card span { font-size: 12px; color: #9CA3AF; }
+
+  footer { margin-top: 48px; font-size: 12px; color: #9CA3AF; }
+</style>
+</head>
+<body>
+  <div class="crown">👑</div>
+  <h1>ProfCV</h1>
+  <p>Legal Documents / الوثائق القانونية</p>
+
+  <div class="cards">
+    <a href="privacy-policy.html" class="card">
+      <div class="icon">🔒</div>
+      <h2>سياسة الخصوصية</h2>
+      <span>Privacy Policy</span>
+    </a>
+    <a href="terms-of-use.html" class="card">
+      <div class="icon">📄</div>
+      <h2>شروط الاستخدام</h2>
+      <span>Terms of Use</span>
+    </a>
+  </div>
+
+  <footer>© 2025 ProfCV. All rights reserved.</footer>
+</body>
+</html>

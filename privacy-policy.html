@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>ProfCV – Privacy Policy / سياسة الخصوصية</title>
+<style>
+  :root {
+    --primary:  #1A237E;
+    --accent:   #C9A84C;
+    --bg:       #F8F9FC;
+    --card:     #FFFFFF;
+    --text:     #1A1A2E;
+    --muted:    #6B7280;
+    --border:   #E5E7EB;
+    --radius:   12px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 15px;
+  }
+
+  /* ── Header ── */
+  header {
+    background: linear-gradient(135deg, var(--primary) 0%, #283593 100%);
+    color: #fff;
+    padding: 48px 24px 36px;
+    text-align: center;
+  }
+  header .crown { font-size: 42px; margin-bottom: 12px; }
+  header h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; }
+  header p  { font-size: 14px; opacity: .75; margin-top: 6px; }
+
+  /* ── Lang toggle ── */
+  .lang-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 18px;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+  .lang-btn {
+    padding: 7px 22px;
+    border: 2px solid var(--primary);
+    border-radius: 50px;
+    background: transparent;
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s;
+  }
+  .lang-btn.active, .lang-btn:hover {
+    background: var(--primary);
+    color: #fff;
+  }
+
+  /* ── Content ── */
+  main { max-width: 760px; margin: 0 auto; padding: 36px 20px 64px; }
+
+  .content { display: none; }
+  .content.visible { display: block; }
+
+  .updated {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 36px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  p  { margin-bottom: 12px; color: #374151; }
+  ul { padding-right: 22px; margin-bottom: 14px; }
+  ul li { margin-bottom: 6px; color: #374151; }
+
+  .highlight-box {
+    background: #EEF2FF;
+    border-right: 4px solid var(--primary);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    margin: 20px 0;
+    font-size: 14px;
+    color: var(--primary);
+  }
+  [lang="en"] .highlight-box { border-right: none; border-left: 4px solid var(--primary); }
+
+  .contact-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin-top: 32px;
+  }
+  .contact-card a { color: var(--accent); text-decoration: none; font-weight: 600; }
+
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 12px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="crown">👑</div>
+  <h1>ProfCV</h1>
+  <p>Privacy Policy &nbsp;|&nbsp; سياسة الخصوصية</p>
+</header>
+
+<div class="lang-bar">
+  <button class="lang-btn active" onclick="setLang('ar')">العربية</button>
+  <button class="lang-btn"        onclick="setLang('en')">English</button>
+</div>
+
+<main>
+
+  <!-- ════════════════════════════════ ARABIC ════════════════════════════════ -->
+  <div id="content-ar" class="content visible" lang="ar" dir="rtl">
+    <p class="updated">📅 آخر تحديث: يوليو 2025</p>
+
+    <div class="highlight-box">
+      نحن في ProfCV نحترم خصوصيتك تمامًا. لا نجمع بيانات شخصية دون موافقتك، ولا نبيع معلوماتك لأي طرف ثالث.
+    </div>
+
+    <h2>1. 📋 المقدمة</h2>
+    <p>
+      تصف هذه السياسة كيفية جمع تطبيق <strong>ProfCV</strong> واستخدام وحماية
+      البيانات الخاصة بك. باستخدامك للتطبيق، فإنك توافق على الشروط الواردة هنا.
+    </p>
+
+    <h2>2. 📦 البيانات التي نجمعها</h2>
+    <p><strong>أ. البيانات التي تدخلها أنت:</strong></p>
+    <ul>
+      <li>معلومات السيرة الذاتية (الاسم، التواصل، الخبرات، التعليم، المهارات...)</li>
+      <li>بيانات خطاب التقديم (Cover Letter)</li>
+      <li>تفضيلات التصميم والقوالب</li>
+    </ul>
+    <p><strong>ب. البيانات التي تُجمع تلقائيًا:</strong></p>
+    <ul>
+      <li>معرّف الجهاز (لأغراض الإشعارات عبر Firebase)</li>
+      <li>بيانات الاستخدام الأساسية عبر Google Analytics (مجهولة الهوية)</li>
+      <li>حالة الاشتراك عبر Google Play Billing</li>
+    </ul>
+
+    <h2>3. 🏠 تخزين البيانات</h2>
+    <p>
+      جميع بيانات سيرتك الذاتية تُخزَّن <strong>محليًا على جهازك فقط</strong>
+      باستخدام قاعدة بيانات Room. لا يتم رفعها إلى أي خادم خارجي،
+      ما لم تستخدم ميزة النسخ الاحتياطي الاختيارية.
+    </p>
+
+    <h2>4. 🤖 ميزة الذكاء الاصطناعي</h2>
+    <p>
+      عند استخدام مساعد الذكاء الاصطناعي أو تحليل ATS، يتم إرسال النص
+      الذي تكتبه إلى <strong>Groq AI API</strong> لمعالجته. لا يُرتبط هذا النص
+      بهويتك الشخصية، ويخضع لـ
+      <a href="https://groq.com/privacy-policy/" target="_blank">سياسة خصوصية Groq</a>.
+    </p>
+
+    <h2>5. 📢 الإعلانات</h2>
+    <p>
+      يستخدم التطبيق <strong>Google AdMob</strong> لعرض الإعلانات للمستخدمين
+      غير المشتركين. قد تجمع AdMob معرّف الإعلانات (Advertising ID) لتخصيص
+      الإعلانات. يمكنك إيقاف هذا من إعدادات جهازك، أو الترقية إلى Premium
+      للتخلص من الإعلانات نهائيًا.
+    </p>
+
+    <h2>6. 💳 الاشتراكات والمشتريات</h2>
+    <p>
+      تتم عمليات الدفع بالكامل عبر <strong>Google Play Billing</strong>.
+      لا يصل التطبيق إلى بيانات بطاقتك الائتمانية أو معلومات الدفع أبدًا.
+      تخضع المشتريات لـ
+      <a href="https://play.google.com/about/play-terms/" target="_blank">شروط Google Play</a>.
+    </p>
+
+    <h2>7. 🔔 الإشعارات</h2>
+    <p>
+      يستخدم التطبيق <strong>Firebase Cloud Messaging (FCM)</strong> لإرسال
+      إشعارات التذكير. يمكنك إيقاف الإشعارات في أي وقت من إعدادات جهازك.
+    </p>
+
+    <h2>8. 🔗 خدمات الطرف الثالث</h2>
+    <ul>
+      <li><strong>Google Play Billing</strong> – معالجة المدفوعات</li>
+      <li><strong>Google AdMob</strong> – عرض الإعلانات</li>
+      <li><strong>Firebase (FCM + Firestore)</strong> – الإشعارات وأكواد الهدايا</li>
+      <li><strong>Groq AI</strong> – معالجة طلبات الذكاء الاصطناعي</li>
+    </ul>
+
+    <h2>9. 👶 خصوصية الأطفال</h2>
+    <p>
+      التطبيق موجّه للمستخدمين الذين تبلغ أعمارهم 13 عامًا فأكثر.
+      لا نجمع عمدًا أي بيانات من الأطفال.
+    </p>
+
+    <h2>10. 🔄 التغييرات على هذه السياسة</h2>
+    <p>
+      قد نحدّث هذه السياسة من وقت لآخر. سيتم إشعارك داخل التطبيق بأي تغييرات
+      جوهرية. استمرارك في استخدام التطبيق بعد التحديث يُعدّ موافقةً على السياسة الجديدة.
+    </p>
+
+    <div class="contact-card">
+      <h2 style="margin-top:0">📬 تواصل معنا</h2>
+      <p>لأي استفسار حول سياسة الخصوصية:</p>
+      <p>📧 <a href="mailto:semicolonsenior@gmail.com">semicolonsenior@gmail.com</a></p>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════ ENGLISH ═══════════════════════════════ -->
+  <div id="content-en" class="content" lang="en" dir="ltr">
+    <p class="updated">📅 Last updated: July 2025</p>
+
+    <div class="highlight-box">
+      At ProfCV, your privacy is our priority. We do not collect personal data without your consent and never sell your information to third parties.
+    </div>
+
+    <h2>1. 📋 Introduction</h2>
+    <p>
+      This Privacy Policy describes how <strong>ProfCV</strong> collects, uses,
+      and protects your data. By using the app, you agree to the practices
+      described in this policy.
+    </p>
+
+    <h2>2. 📦 Data We Collect</h2>
+    <p><strong>a. Data you provide:</strong></p>
+    <ul>
+      <li>CV information (name, contact details, work experience, education, skills…)</li>
+      <li>Cover letter content</li>
+      <li>Design preferences and selected templates</li>
+    </ul>
+    <p><strong>b. Data collected automatically:</strong></p>
+    <ul>
+      <li>Device token (for push notifications via Firebase)</li>
+      <li>Basic anonymised usage analytics via Google Analytics</li>
+      <li>Subscription status via Google Play Billing</li>
+    </ul>
+
+    <h2>3. 🏠 Data Storage</h2>
+    <p>
+      All CV data is stored <strong>locally on your device only</strong> using
+      a Room database. It is never uploaded to external servers unless you
+      choose to use the optional backup feature.
+    </p>
+
+    <h2>4. 🤖 AI Features</h2>
+    <p>
+      When you use the AI assistant or ATS analysis, the text you enter is sent
+      to <strong>Groq AI API</strong> for processing. This text is not linked to
+      your personal identity and is subject to
+      <a href="https://groq.com/privacy-policy/" target="_blank">Groq's Privacy Policy</a>.
+    </p>
+
+    <h2>5. 📢 Advertising</h2>
+    <p>
+      The app uses <strong>Google AdMob</strong> to show ads to non-subscribed
+      users. AdMob may collect an Advertising ID to personalise ads. You can
+      opt out in your device settings, or upgrade to Premium to remove all ads.
+    </p>
+
+    <h2>6. 💳 Subscriptions & Purchases</h2>
+    <p>
+      All payments are processed exclusively through <strong>Google Play
+      Billing</strong>. The app never accesses your credit card or payment
+      details. Purchases are subject to
+      <a href="https://play.google.com/about/play-terms/" target="_blank">Google Play Terms</a>.
+    </p>
+
+    <h2>7. 🔔 Push Notifications</h2>
+    <p>
+      The app uses <strong>Firebase Cloud Messaging (FCM)</strong> to send
+      reminder notifications. You can disable notifications at any time in
+      your device settings.
+    </p>
+
+    <h2>8. 🔗 Third-Party Services</h2>
+    <ul>
+      <li><strong>Google Play Billing</strong> – payment processing</li>
+      <li><strong>Google AdMob</strong> – advertising</li>
+      <li><strong>Firebase (FCM + Firestore)</strong> – notifications &amp; gift codes</li>
+      <li><strong>Groq AI</strong> – AI request processing</li>
+    </ul>
+
+    <h2>9. 👶 Children's Privacy</h2>
+    <p>
+      The app is intended for users aged 13 and above. We do not knowingly
+      collect data from children under 13.
+    </p>
+
+    <h2>10. 🔄 Changes to This Policy</h2>
+    <p>
+      We may update this policy from time to time. You will be notified within
+      the app of any material changes. Continued use after an update constitutes
+      acceptance of the revised policy.
+    </p>
+
+    <div class="contact-card">
+      <h2 style="margin-top:0">📬 Contact Us</h2>
+      <p>For any privacy-related questions:</p>
+      <p>📧 <a href="mailto:semicolonsenior@gmail.com">semicolonsenior@gmail.com</a></p>
+    </div>
+  </div>
+
+</main>
+
+<footer>© 2025 ProfCV. All rights reserved.</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('.content').forEach(el => el.classList.remove('visible'));
+    document.getElementById('content-' + lang).classList.add('visible');
+    document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+  }
+</script>
+</body>
+</html>
